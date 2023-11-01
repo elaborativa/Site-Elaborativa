@@ -1,11 +1,15 @@
 import styles from './Contatos.module.css'
 import { AiOutlineInstagram , AiOutlineYoutube } from 'react-icons/ai'
-import { MdOutlineMailOutline } from 'react-icons/md'
+import { HiOutlineMail } from 'react-icons/hi'
+import avioes from '../imgs/aviõesCompletos.png'
 
 function Contatos() {
     return (
         <div>
-            <h1 id='contatos' className={styles.h1Contatos}>CONTATOS</h1>
+            <div id={styles.divimg}>
+                <img id='contatos' src={avioes} />
+            </div>
+            <h1 className={styles.h1Contatos}>CONTATOS</h1>
             <div className={styles.content}>
                 <div className={styles.faleConosco}>
                     <h2>FALE CONOSCO</h2>
@@ -13,18 +17,22 @@ function Contatos() {
                 </div>
                 <div className={styles.redesSociais}>
                     <h2 className={styles.h2RedesSociais}>NOSSAS REDES SOCIAIS</h2>
-                    <div>
+                    <p id={styles.camuflagem}>a</p>
+                    <div className={styles.divRedes}>
                         <section className={styles.sectionRedesSociais}>
-                            <AiOutlineInstagram />
-                            <p>Instagram</p>
+                            <a href='https://www.instagram.com/elaborativa/'>
+                                <AiOutlineInstagram className={styles.icons} />
+                            </a>
                         </section>
                         <section className={styles.sectionRedesSociais}>
-                            <MdOutlineMailOutline />
-                            <p>Email</p>
+                            <a href='https://www.youtube.com/@Elaborativa'>
+                                <AiOutlineYoutube className={styles.icons} />
+                            </a>
                         </section>
                         <section className={styles.sectionRedesSociais}>
-                            <AiOutlineYoutube />
-                            <p>Youtube</p>
+                            <a href='mailto:contato@elaborativa.com'>
+                                <HiOutlineMail className={styles.icons} />
+                            </a>
                         </section>
                     </div>
                 </div>

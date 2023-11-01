@@ -2,7 +2,7 @@ import styles from './Referencias.module.css'
 
 function Referencias() {
     return (<div>
-        <h1 id="Referencias" className={styles.h1Referencias}>Referências</h1>
+        <h1 id="referencias" className={styles.h1Referencias}>REFERÊNCIAS</h1>
     </div>
 
     )

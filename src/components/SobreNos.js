@@ -27,7 +27,7 @@ function SobreNos() {
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, quos ea, voluptates quia maiores animi possimus facere officia sequi tempore earum, cupiditate nemo inventore architecto. Corporis et inventore veniam neque.</p>
                     <img src={pessoalElaborativa} className={styles.imgGrupo} />
                 </div>
-                <img src={aviões}></img>
+                {/* <img src={aviões} /> */}
                 <div className={styles.divTitulo}>
                     <h1 id={styles.h1Integrantes}>NOSSOS INTEGRANTES</h1>
                     <div id={styles.linha}>a</div>
@@ -60,6 +60,9 @@ function SobreNos() {
                     </section>
                 </div>
             </div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" id={styles.onda}>
+                <path fill="#ffffff" fill-opacity="1" d="M0,96L60,117.3C120,139,240,181,360,202.7C480,224,600,224,720,202.7C840,181,960,139,1080,133.3C1200,128,1320,160,1380,176L1440,192L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z" />
+            </svg>
         </div>
     )
 }

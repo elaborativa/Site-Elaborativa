@@ -5,6 +5,7 @@ import SobreNos from './components/SobreNos'
 import Produtos from './components/Produtos'
 import Contatos from './components/Contatos'
 import Referencias from './components/Referencias'
+import Parceiros from './components/Parceiros'
 
 function App() {
     return (
@@ -12,9 +13,10 @@ function App() {
             <NavBar />
             <img src={img_grupo} alt="Grupo de pessoas reunidas" id={styles.imgGrupo}/>
             <SobreNos />
-            {/* <Produtos /> */}
+            <Produtos />
             <Contatos />
             <Referencias />
+            <Parceiros />
         </div>
     )
 }
