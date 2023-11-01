@@ -2,6 +2,7 @@ import styles from './SobreNos.module.css'
 import logoDark from '../imgs/logo_preta.jpg'
 import pessoalElaborativa from '../imgs/pessoalDaElaborativa.png'
 import exemplo from '../imgs/exemplo.jpg'
+import aviões from '../imgs/aviões.png'
 
 function SobreNos() {
     return (
@@ -26,6 +27,7 @@ function SobreNos() {
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, quos ea, voluptates quia maiores animi possimus facere officia sequi tempore earum, cupiditate nemo inventore architecto. Corporis et inventore veniam neque.</p>
                     <img src={pessoalElaborativa} className={styles.imgGrupo} />
                 </div>
+                <img src={aviões}></img>
                 <div className={styles.divTitulo}>
                     <h1 id={styles.h1Integrantes}>NOSSOS INTEGRANTES</h1>
                     <div id={styles.linha}>a</div>

@@ -4,6 +4,7 @@ import NavBar from './components/NavBar'
 import SobreNos from './components/SobreNos'
 import Produtos from './components/Produtos'
 import Contatos from './components/Contatos'
+import Referencias from './components/Referencias'
 
 function App() {
     return (
@@ -13,6 +14,7 @@ function App() {
             <SobreNos />
             {/* <Produtos /> */}
             <Contatos />
+            <Referencias />
         </div>
     )
 }

@@ -9,19 +9,19 @@ function NavBar() {
             </div>
             <ul className={styles.ulNavBar}>
                 <li>
-                    <a href='#sobreNos'>Sobre nós</a>
+                    <a className={styles.opçao} href='#sobreNos'>Sobre nós</a>
                 </li>
                 <li>
-                    <a href='#produtos'>Produtos</a>
+                    <a className={styles.opçao} href='#produtos'>Produtos</a>
                 </li>
                 <li>
-                    <a href='#contatos'>Contatos</a>
+                    <a className={styles.opçao} href='#contatos'>Contatos</a>
                 </li>
                 <li>
-                    <a href='#referencias'>Referências</a>
+                    <a className={styles.opçao} href='#referencias'>Referências</a>
                 </li>
                 <li>
-                    <a href='#parceiros'>Parceiros</a>
+                    <a className={styles.opçao} href='#parceiros'>Parceiros</a>
                 </li>
             </ul>
         </div>
