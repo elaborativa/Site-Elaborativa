@@ -1,0 +1,11 @@
+.h1Produtos {
+    font-size: 120px;
+    font-weight: 800;
+    background: -webkit-linear-gradient(45deg, #85009f, #ff06b4, #ff9900 50%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-top: 25px;
+    margin-bottom: 10px;
+    margin-top: 40px;
+    margin-left: 80px;
+}

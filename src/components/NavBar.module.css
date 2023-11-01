@@ -1,0 +1,41 @@
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.divImgNavBar {
+    background: linear-gradient(90deg, rgba(71,2,149,1) 0%, rgba(242,17,180,1) 50%, rgba(255,184,0,1) 100%);
+    height: 59px;
+}
+
+.imgNavBar {
+    width: 300px;
+    margin: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.ulNavBar {
+    margin-right: 50px;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 700px;
+}
+
+li {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+li:hover {
+    background: -webkit-linear-gradient(45deg, #85009f, #ff06b4, #ff9900 80%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}

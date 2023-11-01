@@ -1,0 +1,136 @@
+.divSobreNos {
+    display: flex;
+    flex-direction: column;
+}
+
+.h1sobreNos {
+    font-size: 120px;
+    font-weight: 800;
+    background: -webkit-linear-gradient(45deg, #85009f, #ff06b4, #ff9900 50%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-top: 25px;
+    margin-bottom: 10px;
+    margin-top: 0;
+    margin-left: 80px;
+}
+
+.pDiv {
+    font-size: 20px;
+    color: white;
+    font-weight: 200;
+    width: 100%;
+    padding-right: 70px;
+    text-align: justify;
+}
+
+#logoDark {
+    width: 300px;
+    border-radius: 15%;
+    margin-top: -150px;
+}
+
+.divTextoLogo {
+    display: flex;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.content {
+    background-color: #231f20;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.divVideo {
+    background: linear-gradient(to right, #85009f, #ff06b4, #ff9900);
+    padding: 5px;
+    padding-bottom: 2px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    border-radius: 0.5%;
+}
+
+.historia {
+    background-color: white;
+    padding: 80px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-right: 25%;
+    border-radius: 0px 0px 40px 0px;
+}
+
+.historiaIntegrantes {
+    background: linear-gradient(0deg, rgba(71,2,149,1) 0%, rgba(242,17,180,1) 50%, rgba(255,184,0,1) 100%);
+}
+
+#h1Historia {
+    font-size: 100px;
+    margin: 0;
+    color: white;
+    text-shadow: 2px 0 #231f20, -2px 0 #231f20, 0 2px #231f20, 0 -2px #231f20, 2px 2px #231f20, -2px -2px #231f20, 2px -2px #231f20, -2px 2px #231f20;
+}
+
+.imgGrupo {
+    margin-top: 30px;
+    width: 100%;
+    border: groove 1em transparent;
+    border-radius: 3em;
+}
+
+.imgsIntegrantes {
+    width: 180px;
+    border-radius: 50%;
+    border: 6px solid white;
+}
+
+.sectionSobreNos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.integrantes {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px;
+
+}
+
+.textSession {
+    margin: 10px;
+    margin-top: 5px;
+    color: white;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+h3 {
+    margin: 5px;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+#h1Integrantes {
+    color: white;
+    font-size: 50px;
+    margin-bottom: 0;
+    margin-top: 50px;
+}
+
+#linha {
+    color: transparent;
+    background-color: white;
+    width: 750px;
+    height: 2px;
+}
+
+.divTitulo {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+}
