@@ -1,22 +1,26 @@
 {
   "files": {
-    "main.css": "/Site-Elaborativa/static/css/main.7995eebe.css",
-    "main.js": "/Site-Elaborativa/static/js/main.772e6ba8.js",
+    "main.css": "/Site-Elaborativa/static/css/main.50f82ae2.css",
+    "main.js": "/Site-Elaborativa/static/js/main.4a3b9de9.js",
     "static/js/787.8b54d151.chunk.js": "/Site-Elaborativa/static/js/787.8b54d151.chunk.js",
-    "static/media/exemplo.jpg": "/Site-Elaborativa/static/media/exemplo.4ee4fa91113aba074213.jpg",
+    "static/media/neto.jpg": "/Site-Elaborativa/static/media/neto.bd185e212f4c1b729ed1.jpg",
     "static/media/pessoalDaElaborativa.png": "/Site-Elaborativa/static/media/pessoalDaElaborativa.f47208dbc341d1c8f07e.png",
     "static/media/grupo.jpg": "/Site-Elaborativa/static/media/grupo.1d564ea19e8c2a75f9b0.jpg",
+    "static/media/marcus.jpg": "/Site-Elaborativa/static/media/marcus.855e9aff675d33900756.jpg",
     "static/media/logo_preta.jpg": "/Site-Elaborativa/static/media/logo_preta.8d1ee727ab7118751bac.jpg",
+    "static/media/lara.jpeg": "/Site-Elaborativa/static/media/lara.f4de5b530438f802c7b7.jpeg",
     "static/media/aviõesCompletos.png": "/Site-Elaborativa/static/media/aviõesCompletos.aac43df0d0095fe504b9.png",
-    "static/media/aviões.png": "/Site-Elaborativa/static/media/aviões.bae7d9721583a41ef070.png",
+    "static/media/Sebrae.png": "/Site-Elaborativa/static/media/Sebrae.a406fb5fdd47f456c6f7.png",
+    "static/media/laura.jpg": "/Site-Elaborativa/static/media/laura.796983a5461c63f11551.jpg",
     "static/media/fonte.png": "/Site-Elaborativa/static/media/fonte.13486ea0cb07bd239639.png",
+    "static/media/carla2.jpg": "/Site-Elaborativa/static/media/carla2.c2a68ad486955cd8b071.jpg",
     "index.html": "/Site-Elaborativa/index.html",
-    "main.7995eebe.css.map": "/Site-Elaborativa/static/css/main.7995eebe.css.map",
-    "main.772e6ba8.js.map": "/Site-Elaborativa/static/js/main.772e6ba8.js.map",
+    "main.50f82ae2.css.map": "/Site-Elaborativa/static/css/main.50f82ae2.css.map",
+    "main.4a3b9de9.js.map": "/Site-Elaborativa/static/js/main.4a3b9de9.js.map",
     "787.8b54d151.chunk.js.map": "/Site-Elaborativa/static/js/787.8b54d151.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7995eebe.css",
-    "static/js/main.772e6ba8.js"
+    "static/css/main.50f82ae2.css",
+    "static/js/main.4a3b9de9.js"
   ]
 }
