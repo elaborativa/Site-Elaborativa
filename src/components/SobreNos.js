@@ -9,6 +9,7 @@ import laura from '../imgs/membros/laura.jpg'
 
 function SobreNos() {
     return (
+
         <div className={styles.divSobreNos}>
             <h1 id='sobreNos' className={styles.h1sobreNos}>SOBRE NÓS</h1>
             <div className={styles.content}>
