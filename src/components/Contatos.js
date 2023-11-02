@@ -12,8 +12,22 @@ function Contatos() {
             <h1 className={styles.h1Contatos}>CONTATOS</h1>
             <div className={styles.content}>
                 <div className={styles.faleConosco}>
-                    <h2>FALE CONOSCO</h2>
-                    {/* <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe11DBQfaN16Twc4Tl0u92j_ZwbZGof_0qBpkAZcLX6lZ59Zw/viewform?embedded=true" width="640" height="689" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe> */}
+                    <h2 className={styles.h2FaleConosco}>FALE CONOSCO</h2>
+                    <form id='formFaleConosco'>
+                        <label>
+                            <span>Nome</span>
+                            <input id="nome" type="text" name="nome" placeholder='Digite seu nome' />
+                        </label>
+                        <label>
+                            <span>Email</span>
+                            <input id="email" type="email" name="email" placeholder='Digite seu email' />
+                        </label>
+                        <label>
+                            <span>Fale conosco</span>
+                            <textarea id="texto" type="text" name="texto" rows="8" placeholder='Escreva sua mensagem' />
+                        </label>
+                        <button onClick={handleSubmit} type="submit">Enviar</button>
+                    </form>
                 </div>
                 <div className={styles.redesSociais}>
                     <h2 className={styles.h2RedesSociais}>NOSSAS REDES SOCIAIS</h2>
@@ -39,6 +53,25 @@ function Contatos() {
             </div>
         </div>
     )
+}
+
+const handleSubmit = (event) => {
+    event.preventDefault();
+
+    const nome = document.getElementById('nome').value
+    const email = document.getElementById('email').value
+    const texto = document.getElementById('texto').value
+    
+    fetch('https://api.sheetmonkey.io/form/ppCsZ9gJ6QwWLp1ajbLSLP', {
+
+        method: 'post',
+        headers: {
+            'Accept': 'application/json',
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ nome, email, texto })
+
+    });
 }
 
 export default Contatos

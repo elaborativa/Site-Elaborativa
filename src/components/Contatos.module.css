@@ -23,7 +23,7 @@
     color: white;
     border: groove 1em transparent;
     border-radius: 0px 3em 3em 0px;
-    width: 45%;
+    width: 55%;
 }
 
 .redesSociais {
@@ -82,5 +82,40 @@
     background-color: #231f20;
     height: 2px;
     width: 350px;
-    margin-top: 10px;}
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
 
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-bottom: 30px;
+}
+
+span {
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+}
+
+button {
+    padding: 10px;
+    border: groove 0 transparent;
+    border-radius: 4em;
+    width: 70%;
+    background: linear-gradient(to right, #85009f, #ff06b4, #ff9900);
+    color: white;
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px
+}

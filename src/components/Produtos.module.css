@@ -1,11 +1,69 @@
 .h1Produtos {
     font-size: 120px;
     font-weight: 800;
-    background: -webkit-linear-gradient(45deg, #85009f, #ff06b4, #ff9900 50%);
+    background: -webkit-linear-gradient(45deg, #85009f, #ff06b4, #ff9900 85%);
     background-clip: text;
     -webkit-text-fill-color: transparent;
     padding-top: 25px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     margin-top: -26px;
     margin-left: 80px;
+}
+
+#logoBranca {
+    width: 300px;
+    margin-left: 120px;
+    margin-top: -160px;
+    border-radius: 50%;
+}
+
+.tituloProdutos {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.imgsProdutos {
+    width: 40%;
+    background: linear-gradient(to right, #85009f, #ff06b4, #ff9900);
+    padding-top: 10px;
+    padding-left: 0px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    border: groove 0 transparent;
+    border-radius: 0 4em 4em 0;
+}
+
+#imgDireita {
+    padding-left: 10px;
+    padding-right: 0;
+    border-radius: 4em 0 0 4em;
+}
+
+.divProduto {
+    display: flex;
+}
+
+.h2Produtos {
+    font-size: 40px;
+    margin-bottom: 0;
+    color: #231f20;
+}
+
+.divText {
+    padding: 50px;
+}
+
+.linhaProdutos {
+    color: transparent;
+    background-color: #231f20;
+    height: 2px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.textoProdutos {
+    font-size: 18px;
+    margin-top: 40px;
+    text-align: justify;
 }
