@@ -18,10 +18,10 @@ function NavBar() {
                     <a className={styles.opçao} href='#contatos'>Contatos</a>
                 </li>
                 <li>
-                    <a className={styles.opçao} href='#referencias'>Referências</a>
+                    <a className={styles.opçao} href='#parcerias'>Parcerias</a>
                 </li>
                 <li>
-                    <a className={styles.opçao} href='#parceiros'>Parceiros</a>
+                    <a className={styles.opçao} href='#referencias'>Referências</a>
                 </li>
             </ul>
         </div>

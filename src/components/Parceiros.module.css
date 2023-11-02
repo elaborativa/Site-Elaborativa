@@ -5,4 +5,79 @@
     background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-left: 80px;
+    margin-bottom: 30px;
+}
+
+.contentParceiros {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 80px;
+    margin-left: 80px;
+}
+
+.aLara {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to right, #85009f, #ff06b4, #ff9900);
+    padding-top: 25px;
+    padding-left: 95px;
+    padding-bottom: 25px;
+    padding-right: 95px;
+    border: groove 0 transparent;
+    border-radius: 4em;
+    transition: transform 0.3s;
+    will-change: scale;
+}
+
+.aLara:hover {
+    transform: scale(1.05);
+}
+
+.laraBranco {
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+    border: groove 1em transparent;
+    border-radius: 3em;
+}
+
+#imgLara {
+    width: 300px;
+    height: 144.219;
+}
+
+.aSebrae {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to right, #85009f, #ff06b4, #ff9900);
+    padding-top: 25px;
+    padding-left: 95px;
+    padding-bottom: 25px;
+    padding-right: 95px;
+    border: groove 0 transparent;
+    border-radius: 4em;
+    transition: transform 0.3s;
+    will-change: scale;
+}
+
+.aSebrae:hover {
+    transform: scale(1.05);
+}
+
+.sebraeBranco {
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 105px;
+    padding-right: 105px;
+    border: groove 1em transparent;
+    border-radius: 3em;
+}
+
+#imgSebrae {
+    width: 250px;
 }

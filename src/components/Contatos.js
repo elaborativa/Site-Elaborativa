@@ -17,7 +17,7 @@ function Contatos() {
                 </div>
                 <div className={styles.redesSociais}>
                     <h2 className={styles.h2RedesSociais}>NOSSAS REDES SOCIAIS</h2>
-                    <p id={styles.camuflagem}>a</p>
+                    <p className={styles.camuflagem}>a</p>
                     <div className={styles.divRedes}>
                         <section className={styles.sectionRedesSociais}>
                             <a href='https://www.instagram.com/elaborativa/'>

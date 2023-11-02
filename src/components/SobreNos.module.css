@@ -27,7 +27,7 @@
 #logoDark {
     width: 300px;
     border-radius: 15%;
-    margin-top: -150px;
+    margin-top: -100px;
 }
 
 .divTextoLogo {
@@ -114,7 +114,7 @@
 h3 {
     margin: 5px;
     color: white;
-    font-size: 20px;
+    font-size: 25px;
     margin-bottom: 0;
     margin-top: 10px;
 }
@@ -129,7 +129,7 @@ h3 {
 #linha {
     color: transparent;
     background-color: white;
-    width: 750px;
+    width: 500px;
     height: 2px;
 }
 

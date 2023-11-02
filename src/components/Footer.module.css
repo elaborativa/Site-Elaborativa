@@ -1,0 +1,49 @@
+footer {
+    background-color: #231f20;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerContent {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.botao {
+    font-family: 'Josefin Sans', sans-serif !important;
+    border: groove 0 transparent !important;
+    border-radius: 4em !important;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+    margin-top: 20px !important;
+}
+
+.divCopyright {
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.copyright {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    font-weight: 300;
+}
+
+#copyrightIcon {
+    padding-left: 5px;
+}
