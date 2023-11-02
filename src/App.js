@@ -21,11 +21,11 @@ function App() {
                 </div>
             </div>
             <SobreNos />
-            {/* <Produtos />
+            <Produtos />
             <Contatos />
             <Parceiros />
             <Referencias />
-            <Footer /> */}
+            <Footer />
         </div>
     )
 }
