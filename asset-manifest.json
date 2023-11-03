@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/Site-Elaborativa/static/css/main.ec56973d.css",
-    "main.js": "/Site-Elaborativa/static/js/main.7fae87a7.js",
+    "main.css": "/Site-Elaborativa/static/css/main.57d63990.css",
+    "main.js": "/Site-Elaborativa/static/js/main.e8d68b1f.js",
     "static/js/787.8b54d151.chunk.js": "/Site-Elaborativa/static/js/787.8b54d151.chunk.js",
     "static/media/neto.jpg": "/Site-Elaborativa/static/media/neto.bd185e212f4c1b729ed1.jpg",
-    "static/media/produto3.jpg": "/Site-Elaborativa/static/media/produto3.3778de4494b77df844ea.jpg",
-    "static/media/produto1.jpg": "/Site-Elaborativa/static/media/produto1.29caaf0b44fdfda4fce5.jpg",
-    "static/media/produto2.jpg": "/Site-Elaborativa/static/media/produto2.5844842dd13f6cfea47d.jpg",
+    "static/media/workshop.jpg": "/Site-Elaborativa/static/media/workshop.fc4924b3892a6069281b.jpg",
     "static/media/pessoalDaElaborativa.png": "/Site-Elaborativa/static/media/pessoalDaElaborativa.f47208dbc341d1c8f07e.png",
     "static/media/grupo.jpg": "/Site-Elaborativa/static/media/grupo.1d564ea19e8c2a75f9b0.jpg",
+    "static/media/designAprendizagem.jpg": "/Site-Elaborativa/static/media/designAprendizagem.58eefc7e2f802519ea38.jpg",
+    "static/media/formação2.jpg": "/Site-Elaborativa/static/media/formação2.635ac54346208869c90e.jpg",
     "static/media/marcus.jpg": "/Site-Elaborativa/static/media/marcus.855e9aff675d33900756.jpg",
     "static/media/logo_preta.jpg": "/Site-Elaborativa/static/media/logo_preta.8d1ee727ab7118751bac.jpg",
     "static/media/lara.jpeg": "/Site-Elaborativa/static/media/lara.f4de5b530438f802c7b7.jpeg",
+    "static/media/palestra2.jpg": "/Site-Elaborativa/static/media/palestra2.d5e17a9dba935f2a3d90.jpg",
     "static/media/aviõesCompletos.png": "/Site-Elaborativa/static/media/aviõesCompletos.aac43df0d0095fe504b9.png",
     "static/media/Sebrae.png": "/Site-Elaborativa/static/media/Sebrae.a406fb5fdd47f456c6f7.png",
     "static/media/elaborativa.jpg": "/Site-Elaborativa/static/media/elaborativa.ac0ed04c71a3ee014fc7.jpg",
@@ -19,13 +20,14 @@
     "static/media/LogoElaborativa.svg": "/Site-Elaborativa/static/media/LogoElaborativa.06c7191944fd13455ef7f8246264b7b3.svg",
     "static/media/fonte.png": "/Site-Elaborativa/static/media/fonte.13486ea0cb07bd239639.png",
     "static/media/carla2.jpg": "/Site-Elaborativa/static/media/carla2.c2a68ad486955cd8b071.jpg",
+    "static/media/paqtg.jpg": "/Site-Elaborativa/static/media/paqtg.400652ce7e5e992a2e56.jpg",
     "index.html": "/Site-Elaborativa/index.html",
-    "main.ec56973d.css.map": "/Site-Elaborativa/static/css/main.ec56973d.css.map",
-    "main.7fae87a7.js.map": "/Site-Elaborativa/static/js/main.7fae87a7.js.map",
+    "main.57d63990.css.map": "/Site-Elaborativa/static/css/main.57d63990.css.map",
+    "main.e8d68b1f.js.map": "/Site-Elaborativa/static/js/main.e8d68b1f.js.map",
     "787.8b54d151.chunk.js.map": "/Site-Elaborativa/static/js/787.8b54d151.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ec56973d.css",
-    "static/js/main.7fae87a7.js"
+    "static/css/main.57d63990.css",
+    "static/js/main.e8d68b1f.js"
   ]
 }
