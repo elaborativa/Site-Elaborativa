@@ -20,9 +20,9 @@ function NavBar() {
                 <li>
                     <a className={styles.opçao} href='#parcerias'>Parcerias</a>
                 </li>
-                <li>
+                {/* <li>
                     <a className={styles.opçao} href='#referencias'>Referências</a>
-                </li>
+                </li> */}
             </ul>
         </div>
     )

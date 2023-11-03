@@ -14,7 +14,7 @@ function SobreNos() {
             <h1 id='sobreNos' className={styles.h1sobreNos}>SOBRE NÓS</h1>
             <div className={styles.content}>
                 <div className={styles.divTextoLogo}>
-                    <p className={styles.pDiv}>Seja muito bem-vindo à nossa empresa! Estamos aqui para proporcionar aos professores que trabalham no Ensino Básico uma formação contínua em Metodologias Ativas, Educação Empreendedora e Tecnologias Digitais. Com base em sólidos conhecimentos em neurociência, nossa equipe está pronta para ajudá-lo a criar estratégias que não apenas capacitam você a ensinar de maneira mais eficaz, mas também capacita seus alunos a aprenderem de forma autônoma. Através de um método especializado, mostramos como o cérebro humano aprende mais facilmente. Ao longo de todo o ano letivo, oferecemos uma série de palestras inspiradoras e workshops envolventes, que podem ser acessados tanto de forma remota quanto presencial, para enriquecer a sua prática pedagógica.</p>
+                    <p className={styles.pDiv}>Seja muito bem-vindo à nossa startup! Estamos aqui para proporcionar aos professores que trabalham no Ensino Básico uma formação contínua em Metodologias Ativas, Educação Empreendedora e Tecnologias Digitais. Com base em sólidos conhecimentos em neurociência, nossa equipe está pronta para ajudá-lo a criar estratégias que não apenas capacitam você a ensinar de maneira mais eficaz, mas também capacita seus alunos a aprenderem de forma autônoma. Através de um método especializado, mostramos como o cérebro humano aprende mais facilmente. Ao longo de todo o ano letivo, oferecemos uma série de palestras inspiradoras e workshops envolventes, que podem ser acessados tanto de forma remota quanto presencial, para enriquecer a sua prática pedagógica.</p>
                     <img src={logoDark} id={styles.logoDark} />
                 </div>
                 <div className={styles.divVideo}>
@@ -24,11 +24,9 @@ function SobreNos() {
             <div className={styles.historiaIntegrantes}>
                 <div className={styles.historia}>
                     <h1 id={styles.h1Historia}>Nossa história</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, quos ea, voluptates quia maiores animi possimus facere officia sequi tempore earum, cupiditate nemo inventore architecto. Corporis et inventore veniam neque.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, quos ea, voluptates quia maiores animi possimus facere officia sequi tempore earum, cupiditate nemo inventore architecto. Corporis et inventore veniam neque.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, quos ea, voluptates quia maiores animi possimus facere officia sequi tempore earum, cupiditate nemo inventore architecto. Corporis et inventore veniam neque.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, quos ea, voluptates quia maiores animi possimus facere officia sequi tempore earum, cupiditate nemo inventore architecto. Corporis et inventore veniam neque.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, quos ea, voluptates quia maiores animi possimus facere officia sequi tempore earum, cupiditate nemo inventore architecto. Corporis et inventore veniam neque.</p>
+                    <p className={styles.pNossaHistoria}>Tudo começou com uma viagem à Finlândia em 2017, quando a professora Carla Régis passou um mês lá pelo programa Gira Mundo. Essa experiência despertou uma curiosidade incrível nela em relação ao sistema de educação finlandês e como ele difere do sistema educacional brasileiro. Carla notou que na Finlândia foram usados ​​métodos ativos de ensino.</p>
+                    <p className={styles.pNossaHistoria}>Ao retornar, ela decidiu colocar em prática o que havia vivenciado, dando origem à ELABORATIVA. Essa iniciativa aconteceu na cidade em que Morava, Campina Grande - PB, um local com um ambiente educacional sólido e inovador.</p>
+                    <p className={styles.pNossaHistoria}>Hoje em dia, a ELABORATIVA evoluiu de forma notável. A startup cresceu e se desenvolveu. Uma das maiores conquistas recentes foi a participação no programa CatalisaGov, em parceria com o Sebrae. É uma honra destacar que a ELABORATIVA foi a primeira e até agora única startup paraibana a ser selecionada para esse programa.</p>
                     <img src={pessoalElaborativa} className={styles.imgGrupo} />
                 </div>
                 <div className={styles.divTitulo}>

@@ -2,6 +2,7 @@ import styles from './Parceiros.module.css'
 
 import lara from '../imgs/parceiros/lara.jpeg'
 import sebrae from '../imgs/parceiros/Sebrae.png'
+import paqtg from '../imgs/parceiros/paqtg.jpg'
 
 function Parceiros() {
     return (
@@ -16,6 +17,11 @@ function Parceiros() {
                 <a href='https://sebrae.com.br/sites/PortalSebrae/' className={styles.aSebrae}>
                     <div className={styles.sebraeBranco}>
                         <img src={sebrae} id={styles.imgSebrae} />
+                    </div>
+                </a>
+                <a href='https://www.paqtc.org.br/' className={styles.aPaqtg}>
+                    <div className={styles.paqtgBranco}>
+                        <img src={paqtg} id={styles.imgpaqtg} />
                     </div>
                 </a>
             </div>
