@@ -21,7 +21,7 @@ function Produtos() {
                     <p className={styles.textoProdutos}>A ELABORATIVA oferece palestras temáticas e motivadoras baseadas nas Competências para o Século XXI, enfocando as metodologias ativas, ágeis, imersivas e analíticas de ensino, soft skills (competências socioemocionais), realidade aumentada (RA) e realidade virtual (RV), atividade laboral, empreendedorismo e inovação educacional, criatividade, etc.</p>
                 </div>
             </div>
-            <div className={styles.divProduto}>
+            <div className={styles.divProdutoEsquerda}>
                 <div className={styles.divText}>
                     <h2 className={styles.h2Produtos}>CAPACITAÇÃO / WORKSHOPS</h2>
                     <p className={styles.linhaProdutos}>a</p>
@@ -37,7 +37,7 @@ function Produtos() {
                     <p className={styles.textoProdutos}>A ELABORATIVA oferece um serviço inovador, baseado na neurociência, de atendimento personalizado e customizado a alunos que necessitam de acompanhamento para melhor gerenciar seu processo de aprendizagem. Aplicamos testes de aprendizagem, traçamos estratégias específicas, elaboramos horário de estudo funcional, disponibilizamos feedback aos pais, dentre outras atividades socioemocionais para estes alunos, otimizando o tempo de estudo e melhorando as notas e os resultados.</p>
                 </div>
             </div>
-            <div className={styles.divProduto}>
+            <div className={styles.divProdutoEsquerda}>
                 <div className={styles.divText}>
                     <h2 className={styles.h2Produtos}>FORMAÇÃO CONTINUADA</h2>
                     <p className={styles.linhaProdutos}>a</p>

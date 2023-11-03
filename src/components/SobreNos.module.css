@@ -148,21 +148,12 @@ h3 {
 @media (max-width: 980px){
     .h1sobreNos{
         font-size: 50px;
-        margin-left: 10px;
+        margin-left: 20px;
+        
         
     }
     #logoDark{
         display: none;
-    }
-
-    
-    iframe {
-        width: 100%;   
-    }
-    .divVideo{
-        width:400px;
-        margin-left: 10px;
-        margin-right: 10px;
     }
 
     .divTextoLogo {
@@ -170,8 +161,8 @@ h3 {
         margin-left: 0px;
         margin-right: 0px;
         align-items: center;
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
         line-height: 1.2;
     }
     .pDiv{
@@ -180,20 +171,42 @@ h3 {
         padding-right:0px;
 
     }
-    .historia{
-        mask-image: linear-gradient(to top, transparent 5%, black 20%);
-        margin-right: 0%;
+
+    iframe {
+        width: 100%;   
     }
+
+    .divVideo{
+        width:350px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .historiaIntegrantes{
+        padding-bottom: 150px;
+    }
+
+    .historia{ 
+        margin-right: 0%;
+        padding: 20px;
+        border-radius: 0px 0px 0px 0px;
+    }
+
     #h1Historia {
         font-size: 40px;
     }
 
-    #linha{
-        width: 300px;
+    .imgGrupo{
+        width:90%;
     }
 
-    .h1Integrantes{
-        font-size: 50px;
+    #linha{
+        width: 350px;
+    }
+
+    #h1Integrantes{
+        font-size: 45px;
+        border:0px;
     }
 
     .integrantes{
@@ -202,10 +215,6 @@ h3 {
         justify-content: space-between;
         
     }
-
-    .historia{
-        padding: 20px;
-    } 
 
     .sectionSobreNos{
         width: 120px; 

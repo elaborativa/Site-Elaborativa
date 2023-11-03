@@ -7,7 +7,7 @@ function Footer() {
         <footer>
             <div className={styles.footerContent}>
                 <Button className={styles.botao} color="secondary" variant="contained" href="#">Voltar para o topo</Button>
-                <div>
+                <div className={styles.botoesFooter}>
                     <Button className={styles.botao} color="secondary" variant="contained" href="#sobreNos">Sobre nós</Button>
                     <Button className={styles.botao} color="secondary" variant="contained" href="#produtos">Produtos</Button>
                     <Button className={styles.botao} color="secondary" variant="contained" href="#contatos">Contatos</Button>

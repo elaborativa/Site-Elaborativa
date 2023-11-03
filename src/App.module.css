@@ -13,7 +13,7 @@
     
     #divLampada{
         display: flex;
-        height: 1000px;
+        height: 800px;
         background-color:#2f2f2f;
         mask-image: linear-gradient(to top, transparent 5%, black 40%);
     }

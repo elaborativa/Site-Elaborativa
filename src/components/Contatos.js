@@ -6,10 +6,12 @@ import avioes from '../imgs/aviõesCompletos.png'
 function Contatos() {
     return (
         <div>
-            <div id={styles.divimg}>
-                <img id='contatos' src={avioes} />
+            <div className={styles.divTitulo}>
+                <div id={styles.divimg}>
+                    <img id='contatos' className={styles.avioes} src={avioes} />
+                </div>
+                    <h1 className={styles.h1Contatos}>CONTATOS</h1>
             </div>
-            <h1 className={styles.h1Contatos}>CONTATOS</h1>
             <div className={styles.content}>
                 <div className={styles.faleConosco}>
                     <h2 className={styles.h2FaleConosco}>FALE CONOSCO</h2>
