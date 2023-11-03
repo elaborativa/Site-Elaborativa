@@ -107,6 +107,7 @@ input, textarea {
     padding: 10px;
     border-radius: 10px;
     color: black;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 button {

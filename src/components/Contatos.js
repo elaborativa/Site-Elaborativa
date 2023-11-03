@@ -60,20 +60,33 @@ function Contatos() {
 const handleSubmit = (event) => {
     event.preventDefault();
 
-    const nome = document.getElementById('nome').value
-    const email = document.getElementById('email').value
-    const texto = document.getElementById('texto').value
+    let nome = document.getElementById('nome').value
+    let email = document.getElementById('email').value
+    let texto = document.getElementById('texto').value
+
+    if (nome==='' || email==='' || texto==='') {
+        alert("Você deixou algum campo em branco")
+    }
     
-    fetch('https://api.sheetmonkey.io/form/ppCsZ9gJ6QwWLp1ajbLSLP', {
+    else {
+        fetch('https://api.sheetmonkey.io/form/ppCsZ9gJ6QwWLp1ajbLSLP', {
 
-        method: 'post',
-        headers: {
-            'Accept': 'application/json',
-            'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({ nome, email, texto })
+            method: 'post',
+            headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({ nome, email, texto })
 
-    });
+        });
+
+        document.getElementById('nome').value = ''
+        document.getElementById('email').value = ''
+        document.getElementById('texto').value = ''
+
+        alert('Sua mensagem foi enviada')
+    }
+    
 }
 
 export default Contatos
