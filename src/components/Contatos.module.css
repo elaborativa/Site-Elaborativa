@@ -110,6 +110,8 @@ input, textarea {
     font-family: 'Josefin Sans', sans-serif;
 }
 
+
+
 button {
     padding: 10px;
     border: groove 0 transparent;
@@ -145,6 +147,8 @@ button {
         width: 100%;
     }
     .redesSociais{
+        margin-left: 1%;
+        padding: 0%;
         background: none;
         margin-bottom: -60px;
         position: relative;

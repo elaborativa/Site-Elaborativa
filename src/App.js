@@ -8,10 +8,12 @@ import Referencias from './components/Referencias'
 import Parceiros from './components/Parceiros'
 import Footer from './components/Footer'
 import img_lampada from './svg/LogoElaborativa.svg'
+import MenuMobile from './components/MenuMobile'
 
 function App() {
     return (
         <div>
+            <MenuMobile class={styles.MenuMobile}/>
             <NavBar />
             <img src={img_grupo} alt="Grupo de pessoas reunidas" id={styles.imgGrupo}/>
 

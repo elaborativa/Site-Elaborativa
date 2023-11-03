@@ -12,7 +12,7 @@ function Footer() {
                     <Button className={styles.botao} color="secondary" variant="contained" href="#produtos">Produtos</Button>
                     <Button className={styles.botao} color="secondary" variant="contained" href="#contatos">Contatos</Button>
                     <Button className={styles.botao} color="secondary" variant="contained" href="#parcerias">Parcerias</Button>
-                    <Button className={styles.botao} color="secondary" variant="contained" href="#referencias">Referências</Button>
+                    {/* <Button className={styles.botao} color="secondary" variant="contained" href="#referencias">Referências</Button> */}
                 </div>
             </div>
             <div className={styles.divCopyright}>

@@ -1,0 +1,33 @@
+.divMenu{
+    position:fixed;
+    right:7px;
+    z-index: 3;
+    width: 65px;
+    height: 65px;
+    top: 15px;
+}
+
+.IconButton{
+    display:flex;
+    width:60px;
+    height: 60px;
+    background: linear-gradient(to top, #85009f, #ff06b4, #ff9900);
+}
+
+.iconSvg{
+    color:white;
+}
+.opçao{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-decoration: none;
+}
+
+
+
+@media (min-width: 980px){
+    .divMenu{
+    display: none;
+}
+}

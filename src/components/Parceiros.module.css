@@ -29,6 +29,7 @@
     border-radius: 4em;
     transition: transform 0.3s;
     will-change: scale;
+    margin-right: 10px;
 }
 
 .aLara:hover {
@@ -63,6 +64,7 @@
     border-radius: 4em;
     transition: transform 0.3s;
     will-change: scale;
+    margin-right: 10px;
 }
 
 .aSebrae:hover {
@@ -96,6 +98,7 @@
     border-radius: 4em;
     transition: transform 0.3s;
     will-change: scale;
+    margin-right: 10px;
 }
 
 .paqtgBranco {
