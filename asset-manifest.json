@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Site-Elaborativa/static/css/main.57d63990.css",
-    "main.js": "/Site-Elaborativa/static/js/main.e8d68b1f.js",
+    "main.css": "/Site-Elaborativa/static/css/main.919e87af.css",
+    "main.js": "/Site-Elaborativa/static/js/main.d6c6e372.js",
     "static/js/787.8b54d151.chunk.js": "/Site-Elaborativa/static/js/787.8b54d151.chunk.js",
     "static/media/neto.jpg": "/Site-Elaborativa/static/media/neto.bd185e212f4c1b729ed1.jpg",
     "static/media/workshop.jpg": "/Site-Elaborativa/static/media/workshop.fc4924b3892a6069281b.jpg",
-    "static/media/pessoalDaElaborativa.png": "/Site-Elaborativa/static/media/pessoalDaElaborativa.f47208dbc341d1c8f07e.png",
     "static/media/grupo.jpg": "/Site-Elaborativa/static/media/grupo.1d564ea19e8c2a75f9b0.jpg",
     "static/media/designAprendizagem.jpg": "/Site-Elaborativa/static/media/designAprendizagem.58eefc7e2f802519ea38.jpg",
     "static/media/formação2.jpg": "/Site-Elaborativa/static/media/formação2.635ac54346208869c90e.jpg",
+    "static/media/fotoNossahistoria.jpeg": "/Site-Elaborativa/static/media/fotoNossahistoria.dccfa8050712d5b34ace.jpeg",
     "static/media/marcus.jpg": "/Site-Elaborativa/static/media/marcus.855e9aff675d33900756.jpg",
     "static/media/logo_preta.jpg": "/Site-Elaborativa/static/media/logo_preta.8d1ee727ab7118751bac.jpg",
     "static/media/lara.jpeg": "/Site-Elaborativa/static/media/lara.f4de5b530438f802c7b7.jpeg",
@@ -22,12 +22,12 @@
     "static/media/carla2.jpg": "/Site-Elaborativa/static/media/carla2.c2a68ad486955cd8b071.jpg",
     "static/media/paqtg.jpg": "/Site-Elaborativa/static/media/paqtg.400652ce7e5e992a2e56.jpg",
     "index.html": "/Site-Elaborativa/index.html",
-    "main.57d63990.css.map": "/Site-Elaborativa/static/css/main.57d63990.css.map",
-    "main.e8d68b1f.js.map": "/Site-Elaborativa/static/js/main.e8d68b1f.js.map",
+    "main.919e87af.css.map": "/Site-Elaborativa/static/css/main.919e87af.css.map",
+    "main.d6c6e372.js.map": "/Site-Elaborativa/static/js/main.d6c6e372.js.map",
     "787.8b54d151.chunk.js.map": "/Site-Elaborativa/static/js/787.8b54d151.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.57d63990.css",
-    "static/js/main.e8d68b1f.js"
+    "static/css/main.919e87af.css",
+    "static/js/main.d6c6e372.js"
   ]
 }
