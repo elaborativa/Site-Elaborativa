@@ -36,22 +36,22 @@ function SobreNos() {
                 <div className={styles.integrantes}>
                     <section className={styles.sectionSobreNos}>
                         <img src={carla} className={styles.imgsIntegrantes} />
-                        <h3>Carla Régis</h3>
+                        <h3 className={styles.integranteNome}>Carla Régis</h3>
                         <p className={styles.textSession}>CEO</p>
                     </section>
                     <section className={styles.sectionSobreNos}>
                         <img src={neto} className={styles.imgsIntegrantes} />
-                        <h3>Inácio Neto</h3>
+                        <h3 className={styles.integranteNome}>Inácio Neto</h3>
                         <p className={styles.textSession}>CFO</p>
                     </section>
                     <section className={styles.sectionSobreNos}>
                         <img src={laura} className={styles.imgsIntegrantes} />
-                        <h3>Laura Dourado</h3>
+                        <h3 className={styles.integranteNome}>Laura Dourado</h3>
                         <p className={styles.textSession}>Pesquisadora</p>
                     </section>
                     <section className={styles.sectionSobreNos}>
                         <img src={marcus} className={styles.imgsIntegrantes} />
-                        <h3>Marcus Régis</h3>
+                        <h3 className={styles.integranteNome}>Marcus Régis</h3>
                         <p className={styles.textSession}>CTO</p>
                     </section>
                 </div>

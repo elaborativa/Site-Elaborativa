@@ -1,0 +1,7 @@
+.MenuMobile {
+  position: fixed;
+  right: 2px;
+  z-index: 100;
+  width: 60px;
+  height: 60px;
+}

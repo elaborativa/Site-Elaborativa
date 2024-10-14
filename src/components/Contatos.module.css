@@ -87,32 +87,30 @@
     margin-bottom: 25px;
 }
 
-form {
+.contatosForm {
     display: flex;
     flex-direction: column;
 }
 
-label {
+.contatosLabel {
     display: flex;
     flex-direction: column;
     width: 70%;
     margin-bottom: 30px;
 }
 
-span {
+.contatosSpan {
     margin-bottom: 5px;
 }
 
-input, textarea {
+.contatosInput {
     padding: 10px;
     border-radius: 10px;
     color: black;
     font-family: 'Josefin Sans', sans-serif;
 }
 
-
-
-button {
+.contatosButton {
     padding: 10px;
     border: groove 0 transparent;
     border-radius: 4em;
@@ -165,7 +163,7 @@ button {
     .h2FaleConosco{
         text-align: center;
     }
-    form {
+    .contatosForm {
         align-items: center;
     }
 

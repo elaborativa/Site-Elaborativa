@@ -5,7 +5,13 @@ function NavBar() {
     return (
         <div className={styles.navBar}>
             <div className={styles.divImgNavBar}>
-                <img src={fonte} className={styles.imgNavBar} />
+                <a href="/">
+                    <img
+                        src={fonte}
+                        className={styles.imgNavBar}
+                        alt="Logo da Elaborativa"
+                    />
+                </a>
             </div>
             <ul className={styles.ulNavBar}>
                 <li>

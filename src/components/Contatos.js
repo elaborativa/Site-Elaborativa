@@ -15,20 +15,20 @@ function Contatos() {
             <div className={styles.content}>
                 <div className={styles.faleConosco}>
                     <h2 className={styles.h2FaleConosco}>FALE CONOSCO</h2>
-                    <form id='formFaleConosco'>
-                        <label>
-                            <span>Nome</span>
-                            <input id="nome" type="text" name="nome" placeholder='Digite seu nome' />
+                    <form id='formFaleConosco' className={styles.contatosForm}>
+                        <label className={styles.contatosLabel}>
+                            <span className={styles.contatosSpan}>Nome</span>
+                            <input id="nome" type="text" name="nome" placeholder='Digite seu nome' className={styles.contatosInput} />
                         </label>
-                        <label>
-                            <span>Email</span>
-                            <input id="email" type="email" name="email" placeholder='Digite seu email' />
+                        <label className={styles.contatosLabel}>
+                            <span className={styles.contatosSpan}>Email</span>
+                            <input id="email" type="email" name="email" placeholder='Digite seu email' className={styles.contatosInput} />
                         </label>
-                        <label>
-                            <span>Fale conosco</span>
-                            <textarea id="texto" type="text" name="texto" rows="8" placeholder='Escreva sua mensagem' />
+                        <label className={styles.contatosLabel}>
+                            <span className={styles.contatosSpan}>Fale conosco</span>
+                            <textarea id="texto" type="text" name="texto" rows="8" placeholder='Escreva sua mensagem' className={styles.contatosInput} />
                         </label>
-                        <button onClick={handleSubmit} type="submit">Enviar</button>
+                        <button onClick={handleSubmit} type="submit" className={styles.contatosButton}>Enviar</button>
                     </form>
                 </div>
                 <div className={styles.redesSociais}>
