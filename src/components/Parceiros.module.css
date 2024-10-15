@@ -1,196 +1,102 @@
 .h1Parceiros {
-    font-size: 120px;
-    font-weight: 800;
-    background: -webkit-linear-gradient(45deg, #85009f, #ff06b4, #ff9900 50%);
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    margin-left: 80px;
-    margin-bottom: 30px;
+  font-size: 120px;
+  font-weight: 800;
+  background: -webkit-linear-gradient(45deg, #85009f, #ff06b4, #ff9900 50%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-left: 80px;
+  margin-bottom: 30px;
 }
 
 .contentParceiros {
-    display: flex;
-    justify-content: space-between;
-    margin-right: 80px;
-    margin-left: 80px;
-    margin-bottom: 80px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 80px;
+  margin-left: 80px;
+  margin-bottom: 80px;
+  gap: 32px;
+  flex-wrap: wrap;
 }
 
-.aLara {
-    width: 140px;
-    display: flex;
-    justify-content: center;
-    background: linear-gradient(to right, #85009f, #ff06b4, #ff9900);
-    padding-top: 25px;
-    padding-left: 95px;
-    padding-bottom: 25px;
-    padding-right: 95px;
-    border: groove 0 transparent;
-    border-radius: 4em;
-    transition: transform 0.3s;
-    will-change: scale;
-    margin-right: 10px;
+.parceiroContainer {
+  width: 140px;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(to right, #85009f, #ff06b4, #ff9900);
+  padding-top: 25px;
+  padding-left: 95px;
+  padding-bottom: 25px;
+  padding-right: 95px;
+  border: groove 0 transparent;
+  border-radius: 4em;
+  transition: transform 0.3s;
+  will-change: scale;
 }
 
-.aLara:hover {
-    transform: scale(1.05);
+.parceiroContainer:hover {
+  transform: scale(1.05);
 }
 
-.laraBranco {
-    background-color: white;
-    padding-top: 30px;
-    padding-bottom: 20px;
-    padding-left: 0px;
-    padding-right: 0px;
-    border: groove 1em transparent;
-    border-radius: 3em;
+.parceiroImagemContainer {
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 0px;
+  padding-right: 0px;
+  border: groove 1em transparent;
+  border-radius: 3em;
+  display: flex;
+  align-items: center;
 }
 
-#imgLara {
-    width: 250px;
-    height: 144.219;
+.parceiroImagemContainer img {
+  object-fit: contain;
 }
 
-.aSebrae {
-    width: 140px;
-    display: flex;
-    justify-content: center;
-    background: linear-gradient(to right, #85009f, #ff06b4, #ff9900);
-    padding-top: 25px;
-    padding-left: 95px;
-    padding-bottom: 25px;
-    padding-right: 95px;
-    border: groove 0 transparent;
-    border-radius: 4em;
-    transition: transform 0.3s;
-    will-change: scale;
-    margin-right: 10px;
-}
-
-.aSebrae:hover {
-    transform: scale(1.05);
-}
-
-.sebraeBranco {
-    background-color: white;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 0px;
-    padding-right: 0px;
-    border: groove 1em transparent;
-    border-radius: 3em;
+#imgVirtus {
+  width: 250px;
+  height: 145px;
 }
 
 #imgSebrae {
-    width: 250px;
-}
-
-.aPaqtg {
-    width: 140px;
-    display: flex;
-    justify-content: center;
-    background: linear-gradient(to right, #85009f, #ff06b4, #ff9900);
-    padding-top: 25px;
-    padding-left: 95px;
-    padding-bottom: 25px;
-    padding-right: 95px;
-    border: groove 0 transparent;
-    border-radius: 4em;
-    transition: transform 0.3s;
-    will-change: scale;
-    margin-right: 10px;
-}
-
-.paqtgBranco {
-    background-color: white;
-    padding-top: 25px;
-    padding-bottom: 20px;
-    padding-left: 17px;
-    padding-right: 17px;
-    border: groove 0 transparent;
-    border-radius: 3em;
-}
-
-.aPaqtg:hover {
-    transform: scale(1.05);
+  width: 250px;
 }
 
 #imgpaqtg {
-    padding-top: 30px;
-    margin: 0;
-    width: 250px;
+  width: 250px;
 }
-@media (max-width: 980px){
-    .h1Parceiros{
-        font-size: 50px;
-        margin-left: 20px;
-    }
-    .contentParceiros{
-        flex-wrap: wrap;
-        margin-right: 20px;
-        margin-left: 20px;
-        margin-bottom: 20px;
-        justify-content: center;
-    }
-    .aLara {
-        width: 250px;
-        padding-top: 15px;
-        padding-left: 5px;
-        padding-bottom: 15px;
-        padding-right: 5px;
-        margin-bottom: 16px;
-    }
-    .laraBranco {
-        background-color: white;
-        padding-top: 3px;
-        padding-bottom: 3px;
-        padding-left: 0px;
-        padding-right: 0px;
-        border-radius: 3em;
-    }
-    
-    #imgLara {
-        width: 180px;
-    }
 
-    .aSebrae {
-        width: 250px;
-        padding-top: 15px;
-        padding-left: 5px;
-        padding-bottom: 15px;
-        padding-right: 5px;
-        margin-bottom: 16px;
-    }
-    .sebraeBranco {
-        background-color: white;
-        padding-top: 3px;
-        padding-bottom: 3px;
-        padding-left: 0px;
-        padding-right: 0px;
-        border-radius: 3em;
-    }
-    
-    #imgSebrae {
-        width: 180px;
-    }
+@media (max-width: 980px) {
+  .h1Parceiros {
+    font-size: 50px;
+    margin-left: 20px;
+  }
 
-    .aPaqtg {
-        width: 250px;
-        padding-top: 15px;
-        padding-left: 5px;
-        padding-bottom: 15px;
-        padding-right: 5px;
-    }
-    .aqtgBranco {
-        background-color: white;
-        padding-top: 3px;
-        padding-bottom: 3px;
-        padding-left: 0px;
-        padding-right: 0px;
-        border-radius: 3em;
-    }
-    
-    #imgpaqtg {
-        width: 180px;
-    }
+  .contentParceiros {
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+
+  .parceiroContainer {
+    width: 250px;
+    padding-top: 15px;
+    padding-left: 5px;
+    padding-bottom: 15px;
+    padding-right: 5px;
+    margin-bottom: 16px;
+  }
+
+  #imgVirtus {
+    width: 180px;
+  }
+
+  #imgSebrae {
+    width: 180px;
+  }
+
+  #imgpaqtg {
+    width: 180px;
+  }
 }
