@@ -219,6 +219,10 @@ function DesignDeAprendizagem() {
             <QuestoesForm carregandoResultado={carregandoResultado} />
           )}
         </FormikProvider>
+        <p className={styles.credito}>
+          Este teste é baseado na Teoria das Inteligências Múltiplas de Howard
+          Gardner.
+        </p>
       </div>
       <Footer hideLinks />
     </div>

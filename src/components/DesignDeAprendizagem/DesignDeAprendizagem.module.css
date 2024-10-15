@@ -155,6 +155,12 @@
   font-family: 'Josefin Sans', sans-serif;
 }
 
+.credito {
+  font-size: 12px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-style: italic;
+}
+
 @media (min-width: 768px) {
   .titulo {
     font-size: 36px;
@@ -170,6 +176,11 @@
 
   .chartContainer {
     display: block;
+  }
+
+  .credito {
+    font-size: 14px;
+    text-align: center;
   }
 }
 
